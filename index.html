@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Exchanger</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="container">
+
+    <h2 style="text-align: center;">CURRENCY CONVERTER</h2>
+
+    <div id="inputplace">
+    <label for="numberEnterplace">Enter Amount:</label>
+    <input style="border-bottom: 1px solid blueviolet; padding: 3px; outline: none;" type="number" id="numberEnterplace">  
+    </div>
+    
+    <div class="selections">
+
+        <div id="fromdiv"> 
+        <label for="from">From:</label>
+        <img src="https://flagsapi.com/US/flat/64.png" id="fromimg">
+        <select id="from">
+        </select>
+        </div>
+       
+
+        <img id="exchangeimg" src="currency_exchange_FILL0_wght400_GRAD0_opsz24.png">
+
+        <div id="todiv">
+        <label for="to">To:</label>
+        <img src="https://flagsapi.com/IN/flat/64.png" id="toimg">
+        <select id="to">
+        </select>
+        </div>
+        
+        
+    </div>
+   <p>Converted Amount:</p>
+    <div id="result">
+    </div>
+
+    <button >Get Exchanged</button>
+</div>
+
+
+
+<script type="module" src="index.js"></script>
+</body>
+</html>
